@@ -36,8 +36,8 @@ $zip->close();
 //check to make sure the file exists
 return file_exists($destination);
 }
-else
-{
+
+  {
 return false;
 }
 }
